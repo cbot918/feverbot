@@ -1,0 +1,18 @@
+[project]
+name = "ivor-linebot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "flask>=3.1.3",
+    "flask-cors>=4.0.0",
+    "line-bot-sdk>=3.21.0",
+    "openai>=1.40",
+    "python-dotenv>=1.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]
